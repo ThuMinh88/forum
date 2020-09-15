@@ -1,0 +1,127 @@
+
+/* CSS body */
+
+.menu_home{
+  background: #f5f5f5;
+  padding: 80px 0 20px;
+  /* position: relative; */
+}
+  
+
+.col1{
+ 
+  width: 100%;
+}
+.menu_title{
+  font-size: 30px;
+  margin-top: 0px;
+  text-decoration-style: solid;
+}
+.section_heading{
+  float:flex;
+}
+
+
+.line_after_heading:after {
+  content: '';
+  height: 4px;
+  background:  brown;
+  width: 5%;
+  display: block;
+}
+.menu_home .viewmore_menu_home {
+  float: right;
+  margin-top: -45px;
+  text-transform: uppercase;
+  background: brown;
+  padding: 10px 20px;
+  
+}
+.viewmore_menu_home > a{
+  color:white;
+}
+.viewmore_menu_home > a:hover{
+  color: burlywood;
+  text-decoration: none;
+}
+
+/*   CSS MAIN*/
+.menu_list{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.menu_item{
+  min-width: 200px;
+  
+}
+.figure{
+  text-align: center;
+  margin: 0;
+  
+}
+.menu_item > figure > a > img{
+  
+  width: 364px;
+}
+.menu_item > figure > a{
+  min-width: 200px;
+  display: block;
+  
+}
+.menu_item > figure > a:hover{
+  background: linear-gradient(chocolate,white);
+  
+}
+
+
+/* CSS Search */
+.search_container {
+  /*vertical-align: middle;
+    white-space: nowrap;*/
+  position: relative;
+}
+.search_container .icon {
+  position: absolute;
+  top: 50%;
+  margin-left: 200px;
+  margin-top: 13px;
+  z-index: 1;
+  color: #ffffff;
+}
+.search_containerr input#search {
+  width: 300px;
+  height: 50px;
+  background: #f38080;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #faf2f2;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* Banner */
+.b-container{
+  background-size: 100%;
+  height: 700px;
+  background-repeat: none;
+  animation: doinen ease-in-out 7s infinite ;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes doinen{
+  0%{
+    
+    background-image: url(../img/banner1.jpg);
+    
+  }
+  50%{
+    background-image: url(../img/banner2.jpg);
+  }
+  100%{
+    background-image: url(../img/banner3.jpg);
+  }
+  
+}

@@ -1,0 +1,19 @@
+a.go_top{
+    width: 55px;
+      height: 55px;
+      position: fixed;
+      background: #FFFFFF;
+      bottom: 80px;
+      right: 15px;
+      border-radius: 100%;
+      z-index: 11;
+  }
+  a.go_top:before{
+    content: "\f077";
+      font-family: FontAwesome;
+      font-size: 26px;
+      position: absolute;
+      color: #802b2b;
+      top: 11%;
+      left: 26%;
+  }

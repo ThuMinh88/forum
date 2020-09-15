@@ -1,0 +1,198 @@
+/* .banner_item {
+  float: left;
+}
+ img {
+    opacity: 42%;
+    height: fit-content;
+    width: -webkit-fill-available;
+    position: relative;
+  background-position: center center;
+  height: 300px;
+  background-size: cover;
+  opacity: 0.4;
+  /*  background-repeat: no-repeat; */
+html {
+  scroll-behavior: smooth;
+}
+.bodymain {
+  background-image: url(../img/haicaphe.jpg);
+  background-size: cover; /* cắt ảnh theo tỉ lệ của phần chứa */
+
+  width: 100%;
+  margin: 0 auto;
+  background-blend-mode: darken;
+  z-index: -1;
+  /* Ảnh mờ */
+  /*  -webkit-filter: blur(5px);
+  -o-filter: blur(5px);
+  -moz-filter: blur(5px);
+  filter: blur(5px); */
+}
+
+.bodymain {
+  padding: 100px 0 50px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.stikySidebar {
+  /*  top: 70px; */
+  position: sticky;
+}
+.sidebar_menu {
+  background-color: bisque;
+}
+.sidebar_menu > ul > li {
+  padding: 10px 15px;
+}
+.sidebar_menu > ul > li > a > b::after {
+  content: " ";
+  height: 4px;
+  background: brown;
+  width: 50%;
+  display: block;
+  margin-left: -15px;
+}
+
+.sidebar_menu > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-family: UTM Swiss Condensed;
+  text-transform: uppercase;
+}
+.sidebar_menu > ul > li > a:hover {
+  color: brown;
+}
+.sidebar_menu > ul > li:first-child {
+  padding-left: 45px;
+}
+
+/* List_menu_item */
+.list {
+  background-color: white;
+  padding-left: 20px;
+}
+
+.line_after_heading:after {
+  content: "";
+  height: 4px;
+  background: brown;
+  width: 5%;
+  display: block;
+}
+.lists_menu {
+  font-family: UTM Swiss Condensed;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.lists_menu > h3 {
+  text-align: left;
+}
+.lists_menu > h3 > span {
+  font-weight: bold;
+  color: maroon;
+}
+.menu_item_img > a > img {
+  /* width: 250px; */
+  /* width: 100%; */
+  display: block;
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.menu_item {
+  margin: 5px 10px;
+}
+.menu_item:last-child {
+  margin-right: 0;
+}
+.menu_item_img {
+  background: linear-gradient(coral, #fff);
+}
+.menu_item_info > h3 {
+  font-family: UTM Swiss 721 Black Condensed;
+}
+.menu_item_info > h3 > a {
+  color: chocolate;
+  text-decoration: none;
+}
+.menu_item_info > h3 > a:hover {
+  color: brown;
+}
+.menu_item_products {
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+.menu_item_products > a {
+  margin-left: 105px;
+  padding: 2px 5px;
+  background-color: coral;
+  color: white;
+}
+.no_bg {
+  background: white;
+}
+/*
+
+xs = màn hình nhỏ thêm (điện thoại di động)
+sm = màn hình nhỏ (máy tính bảng)
+md = màn hình trung bình (một số máy tính để bàn)
+lg = màn hình lớn (máy tính để bàn còn lại)
+
+*/
+
+.choose > a:hover {
+  background: rgba(70, 28, 28, 0.822);
+}
+
+/* Laptop 14incht(1265x288 */
+@media screen and (max-width: 1265px) {
+  .menu_item {
+    margin: 10px 47px;
+  }
+  .list{
+    max-width: 90%;
+    margin-left: 15px;
+  }
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .sidebar_menu > ul{
+    padding-left: 14px;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .list{
+    width: 100%;
+  }
+  .menu_item {
+    margin: 0 auto;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .menu_item {
+    margin: 0 auto;
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+  .menu_item {
+    margin: 0 auto;
+  }
+}

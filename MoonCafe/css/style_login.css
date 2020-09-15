@@ -1,0 +1,61 @@
+/*CSS Login*/
+*{
+	font-family: iCiel Mijas;
+}
+body{
+	background-image: url(../img/photo-1497515114629-f71d768fd07c.jpg);
+	background-size: cover;
+}
+.bodyLogin{
+	padding-left: 300px;
+}
+h1.login{
+	text-align:center;
+	font-family: iCiel Mijas;
+	font-size:40px;
+	color:rgb(255, 255, 255);
+	padding-top:200px;
+}
+div.login{
+	width:25%;
+	margin:0 auto;
+	
+	border-radius:15px 15px;
+	margin-bottom: 152px;
+	text-align: center;
+}
+div.login>div{
+	padding:10px;
+}
+div.login>div >input{
+	width:304px;
+	height:40px;
+	border:.5px solid #999;
+	border-radius:15px 15px;
+	margin-top: 10px;
+}
+div.login>div>button{
+	width:310px;
+	height:40px;
+	border:.5px solid #999;
+	border-radius:15px 15px;
+	background-color:brown;
+	color:#FFF;
+	font-family: iCiel Mijas;
+	font-size:18px;
+}
+div.login>div>button:hover{
+	background-color:rgb(255, 181, 22);
+}
+/**/
+div.login> div.reg{
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.login> div.reg>a{
+	color:white;
+}
+div.login> div.reg>a:hover{
+	color: brown;
+	text-decoration: none;
+}
+/**/

@@ -1,0 +1,94 @@
+/* CSS FOoter*/
+
+.rowf {
+  background-color: rgb(85, 19, 19);
+  display: flex;
+  padding: 25px 332px;
+  padding-bottom: 0px;
+}
+.socialFoot {
+  margin-right: 100px;
+}
+.socialFoot > ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+.socialFoot > ul > li {
+  margin-right: 5px;
+}
+.socialFoot > ul > li > a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  color: rgb(85, 19, 19);
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  backface-visibility: hidden;
+  transition: all 0.3s linear;
+}
+.socialFoot > ul > li > a > i {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.copyRight {
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 100px;
+}
+.linkFooter {
+  margin-right: 25px;
+}
+.linkFooter > a {
+  display: block;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.linkFooter > a > span {
+  padding-left: 25px;
+  position: relative;
+}
+.linkFooter > a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* Laptop 14incht(1265x288 */
+@media screen and (max-width: 1265px) {
+  .rowf {
+    padding: 5px 200px;
+    align-items: center;
+  }
+  .socialFoot > ul {
+    padding-top: 21px;
+  }
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+  .rowf {
+    padding: 5px 121px;
+    align-items: center;
+  }
+  .socialFoot > ul {
+    padding-top: 21px;
+  }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+}

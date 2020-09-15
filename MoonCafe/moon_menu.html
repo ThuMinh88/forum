@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực đơn | MoonCafe</title>
+    <link rel="shortcut icon" href="img/Asset 4.png" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style_header.css">
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="css/style_footer.css">
+    <link rel="stylesheet" href="css/go_top.css">
+
+    <!-- css:end -->
+    <!-- Javascrip -->
+    <script>
+    </script>
+    
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <a href="#" onclick="jQuery('html,body').animate({scrollTop: 0}, 1000);" class="go_top" style="display:block"></a>
+    <header >
+        <div class="main ">
+            <nav class="navbar">
+                <div class="col20">
+                    <a href="index.html" class="logo" title="MoonCafe">
+                        <img src="img/icon.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="col80 menus">
+                    <ul class="menu top">
+                        <li><a href="#">Cửa hàng</a></li>
+                        <li style="background: rgba(70, 28, 28, 0.822);" class = "choose"><a href="#">Thực đơn</a></li>
+                        <li><a href="#">Đặt hàng</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="moon_login.html"><i class="fa fa-user-circle"></i>Đăng nhập</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    
+    
+
+    <div class="bodymain">
+        
+        <div class="container" style="padding-top: 74px;">
+            <!-- <div class="search_container">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input type="search" id="search" placeholder="Search..." />
+            </div> -->
+            <section class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12k stiySidebar">
+                    <article class="sidebar_menu">
+                        <ul>
+                            <li><a href=""><b>Menu</b></a></li>
+                            <li><a href="#cafeVn">Cafe Việt Nam</a></li>
+                            <li><a id="croll" href="#cafeDaXay">Cafe đá xay</a></li>
+                            <li><a href="#traTraiCay">Trà trái cây</a></li>
+                            <li><a href="#traSua">Trà sữa</a></li>
+                        </ul>
+                    </article>
+                </div>
+               <!-- List_menu_item -->
+                <aside class="col-lg-9 col-md-9 col-sm-8 col-xs-12 list" >
+                    <div class = "lists_menu " id="cafeVN">
+                        <h3><span class="line_after_heading">CÀ PHÊ VIỆT NAM</span></h3>
+                        <div class="menu_list">
+                            <div class="menu_item">
+                                <div class="menu_item_img">
+                                    <a href="#"><img src="img/PHIN DEN DA.png" alt="phinDenDa"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a href="#"><span>Cà phê đen đá</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>32,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="menu_item">
+                                <div class="menu_item_img">
+                                    <a href="#"><img src="img/PHIN-DEN-NONG.png" alt="phinDenNong"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a href="#"><span>Cà phê đen nóng</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>28,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="menu_item">
+                                <div class="menu_item_img">
+                                    <a href="#"><img src="img/PHIN-SUA-DA.png" alt="phinSuaDa"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a href="#"><span>Cà phê sữa đá</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>37,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu_item">
+                                <div class="menu_item_img">
+                                    <a href="#"><img src="img/BAC-XIU-DA.png" alt="phinBacXiu"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a href="#"><span>Bạc xỉu</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>37,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "lists_menu" id="cafeDaXay">
+                        <h3><span class="line_after_heading">CÀ PHÊ ĐÁ XAY</span></h3>
+                        <div class="menu_list">
+                            <div class="menu_item">
+                                <div class="menu_item_img">
+                                    <a href="#"><img src="img/ca-phe-da-xay.jpg" alt="caPheDaXay"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a href="#"><span>Cà phê đá xay</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>49,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="menu_item">
+                                <div class="menu_item_img no_bg ">
+                                    <a href="#"><img class="" src="img/caramel-da-xay.jpg" alt="caPheCaramelDaXay"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a  href="#"><span>Cà phê Caramel đá xay</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>55,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "lists_menu" id="traTraiCay">
+                        <h3><span class="line_after_heading">Trà trái cây</span></h3>
+                        <div class="menu_list">
+                            <div class="menu_item">
+                                <div class="menu_item_img">
+                                    <a href="#"><img src="img/TRA-SEN-VANG.png" alt="traSenVang"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a href="#"><span>Trà Oolong hạt sen</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>45,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="menu_item">
+                                <div class="menu_item_img ">
+                                    <a href="#"><img class="" src="img/TRA-THANH-DAO.png" alt="traDaoCamXa"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a  href="#"><span>Trà đào cam xả</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>45,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu_item">
+                                <div class="menu_item_img ">
+                                    <a href="#"><img class="" src="img/TRA-THACH-VAI.png" alt="traVai"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a  href="#"><span>Trà Oolong vải</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>45,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "lists_menu" id="traSua">
+                        <h3><span class="line_after_heading">Trà sữa</span></h3>
+                        <div class="menu_list">
+                            <div class="menu_item">
+                                <div class="menu_item_img">
+                                    <a href="#"><img class="" src="img/tra-sua-o-long-bach-kim.png" alt="trsSuaBachKim"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a  href="#"><span>Trà sữa bạch kim</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>40,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu_item">
+                                <div class="menu_item_img ">
+                                    <a href="#"><img class="" src="img/Tra-sua-Oolong.png" alt="traOolong"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3><a  href="#"><span>Trà sữa Oolong</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>45,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu_item">
+                                <div class="menu_item_img  no_bg">
+                                    <a href="#"><img src="img/sữa-tươi-trân-châu-đường-đen.png" alt="suaTuoiTranChauDDsuaTuoiTranChauDD"></a>
+                                </div>
+                                <div class="menu_item_info">
+                                    <h3 style="font-size: 19px;"><a href="#"><span>Sữa tươi trân châu đường đen</span></a></h3>
+                                    <div class="menu_item_products">
+                                        <span>42,000 Đ</span> 
+                                        <a href="#">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                        </div>
+                    </div>
+                    
+                </aside>
+                <!-- end_list_menu_item -->
+            </section>
+        </div>
+    </div>
+
+    <footer class="rowf">
+        <div class="socialFoot">
+            <ul>
+                <li><a href="#"
+                        target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"
+                        target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a  href="#"
+                        target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyRight">© 2020 MoonCafe. All rights reserved</div>
+        <div class="linkFooter" style="text-decoration: none;"><a href="#"><i class="fa fa-paper-plane"></i>Đăng ký để nhận bản tin</a></div>
+    </footer>
+</body>
+</html>

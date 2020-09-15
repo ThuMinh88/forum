@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+.main {
+  background-color: brown;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: block;
+  width: 1545px;
+}
+/* */
+
+.navbar {
+  width: 1146px;
+  margin: -5px auto;
+}
+.col20 {
+  width: 20%;
+}
+.col80 {
+  width: 80%;
+}
+.logo > img {
+  width: 90%;
+}
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: iCiel Mijas;
+  font-size: 25px;
+}
+
+.menu > li {
+  min-width: 160px;
+  text-align: center;
+}
+
+.menu > li > a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  padding: 12px 15px;
+  font-family: iCiel Mijas;
+  transition: transform ease 0.1s;
+}
+.menu > li > a:hover {
+  background: rgba(70, 28, 28, 0.822);
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+}
+ul.menu.small {
+
+  width: 870px;
+}
+.small {
+  background: rgba(110, 60, 60, 0.822);
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.small > li > a {
+  color: rgb(248, 211, 89);
+}
+.submenu:hover .small {
+  opacity: 1;
+  visibility: visible;
+  transition: visibility 0.5s, opacity 0.5s;
+}
+.ssmall > li {
+  border-right: 1px solid snow;
+  min-width: 250px;
+  text-align: left;
+}
+.ssmall > li > a {
+  color: bisque;
+  display: block;
+}
+
+/* Laptop 14incht14incht(1265x288 */
+@media screen and (max-width: 1265px) {
+  .top {
+    margin-left: -25px;
+  }
+  .menu > li {
+    min-width: 100px;
+  }
+  .navbar {
+    margin-left: 111px;
+  }
+  
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+  /* .col80 {
+    display: none;
+  } */
+  .navbar {
+    margin-left: 50px;
+  }
+  .col20 > a > img{
+   /*  margin-left: 300px; */
+   width: calc(100% - 56px);
+    margin: 0 auto;
+  }
+  .menu {
+    font-size: 20px;
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .col80 {
+    display: none;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .col80 {
+    display: none;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .col80 {
+    display: none;
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+  .col80 {
+    display: none;
+  }
+}
